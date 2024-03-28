@@ -190,6 +190,8 @@ header {
 
 .email-form textarea, .email-form input, .email-form button {
     color: #000000;
+    display:block;
+    width:100%;
 }    
 
 /* ===== FOOTER SECTION =====*/

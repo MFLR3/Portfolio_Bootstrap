@@ -8,7 +8,7 @@ const port = 3000;
 app.use(express.static("public"));
 
 // Render home directory with index.ejs file
-app.get("/index", (req, res) => {
+app.get("/", (req, res) => {
   res.render("index.ejs");
 });
 
