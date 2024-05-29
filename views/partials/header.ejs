@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Max Website</title>
+    <title>Max Website</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="overflow-x-hidden container-fluid">
     <header>
-        <div class="logos">
-            <img src="images/KeyboardAndLogo.png" alt="Max Reinsch logo" class="logo1">            		
+      <nav class="navbar navbar-expand-sm navbar-dark bg-transparent mb-5">          
+        <div class="container-fluid">
+            <img src="images/KeyboardAndLogo.png" alt="Max Reinsch logo" class="logo1 col-3"> 
+            <button class="navbar-toggler ms-auto top-element hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="nav-id" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex justify-content-end" id="n_bar">
+                <ul class="navbar-nav display-6" id="nav-id">
+                    <li class="nav-item active"><a class="nav-link text-white link-secondary fs-4" href="/">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link text-white link-secondary fs-4" href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link text-white link-secondary fs-4" href="#work">WORK</a></li>
+                    <li class="nav-item"><a class="nav-link text-white link-secondary fs-4" href="#skills">SKILLS</a></li>
+                </ul>
+            </div>
         </div>
-
-        <div class="localnavs">
-            <ul>
-                <li><a href="/index">HOME</a></li>
-                <li><a href="/about">ABOUT</a></li>
-                <li><a href="/work">WORK</a></li>
-                <li><a href="/contact">CONTACT</a></li>
-            </ul>
-        </div>
+      </nav>
     </header>
     <div id="wrapper">
+        <!-- aria-controls="navbarNavAltMarkup" -->

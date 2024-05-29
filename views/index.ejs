@@ -1,110 +1,104 @@
 <%- include("partials/header.ejs") %>
-        <div class="hero-section">
-            <h1>MAX REINSCH</h1>
-            <ul>
-                <li>FULL-STACK</li>
-                <li>SOFTWARE DEVELOPER</li>
-                <li>PROGRAMMER</li>
-            </ul>
-            <img src="images/Max1.png" alt="Max Reinsch" class="me">
-        </div>
-
-        <div class="about">
-            <img src="images/Laptop.png" alt="Laptop" class="laptop-left">
-
-            <div class="about-me">
-                <h2>ABOUT ME</h2>
-                <img src="images/Laptop.png" alt="Laptop" class="laptop-middle">
+<div class="hero-section text-center mb-5">
+    <h1 class="">MAX REINSCH</h1>
+    <ul class="hero-list list-unstyled">
+        <li class="">FULL-STACK</li>
+        <li class="">SOFTWARE DEVELOPER</li>
+        <li class="">PROGRAMMER</li>
+    </ul>
+    <img src="images/Max1.png" alt="Max Reinsch" class="me img-fluid mt-4 w-75">
+</div>
+<div id="about">
+    <div class="row text-center ms-md-1 ms-lg-2 ms-xl-4 my-5">
+        <img src="images/Laptop.png" alt="Laptop" class="laptop-left d-none d-md-inline col-md-2 img-fluid rotate1">
+        <div class="about-me col-md-6 col-md-8 ps-lg-3">
+            <h2 class="text-center">ABOUT ME</h2>
+            <img src="images/Laptop.png" alt="Laptop" class="laptop-middle d-md-none mx-auto d-block my-3">
+            <p class="pl-lg-0 text-center px-3 px-md-0 about">
+                I am a Computer Science BSc graduate aspiring to break into the tech industry. 
+                I am familiar with a multitude of languages such as Java, Python, JavaScript, 
+                C# and have excelled in modules on Python, databases, and front-end web-development. 
+                I have an eye for detail and a keen interest in Object-orientated programming and 
+                software projects.
+            </p>
+        </div>                    
+        <img src="images/Laptop.png" alt="Laptop" class="laptop-right d-none d-md-inline col-md-2 rotate2">
+    </div>    
+</div>
+<h2 class="work-heading text-center mb-3">WORK</h2>   
+<div id="work"> 
+    <div class="row mb-5">                                
+        <div class="work-project-1 text-center col-lg-6 mt-3">
+            <h3 class="mb-3">Sugar_Rings Website</h3>
+            <div class="flex mb-2">
+                <img src="images/Sugar_Rings.png" alt="Sugar Rings Website" class="SR mb-3">
                 <p>
-                    I am a Computer Science BSc graduate aspiring to break into the tech industry. 
-                    I am familiar with a multitude of languages such as Java, Python, JavaScript, 
-                    C# and have excelled in modules on Python, databases, and front-end web-development. 
-                    I have an eye for detail and a keen interest in Object-orientated programming and 
-                    software projects.
+                    A Website developed to meet specifications set by a brief, implemented with responsive web design.
+                
+                    <a href="https://github.com/MFLR3/Sugar_Rings">https://github.com/MFLR3/Sugar_Rings</a>                 
                 </p>
+            </div>                
+        </div>        
+        <div class="work-project-2 text-center col-lg-6 mt-5 mt-lg-3">
+            <h3 class="mb-1">Halcyon</h3>
+            <div class="flex">
+                <img src="images/Halcyon.png" alt="Halcyon. A therapy based Maze game developed in C#." class="halcyon">
+                <p>
+                    Final project for my undergraduate. An android based maze game which uses a Depth-first search for procedural maze generation.
 
+                    <a href="https://github.com/MFLR3/Halcyon">https://github.com/MFLR3/Halcyon</a>               
+                </p>
             </div>
-                        
-            <img src="images/Laptop.png" alt="Laptop" class="laptop-right">
         </div>
-
-        <h2 class="work-heading">WORK</h2>   
-        <div class="work">                     
-            <div class="work-project-1">
-                <h3>Sugar_Rings Website</h3>
+    </div>
+    <div class="row mb-5">                
+            <div class="work-project-3 text-center col-lg-6 mt-3">
+                <h3 class="mb-1">Mock Band Website</h3>
                 <div class="flex">
-                    <img src="images/Sugar_Rings.png" alt="Sugar Rings Website" class="SR">
-                    <p>
-                        A Website developed to meet specifications set by a brief, implemented with responsive web design.
-                    
-                    Link - https://github.com/MFLR3/Sugar_Rings                   
-                    </p>
-                </div>                
-            </div>
-            
-            <div class="work-project-2">
-                <h3>Halcyon</h3>
-                <div class="flex">
-                    <img src="images/Halcyon.png" alt="Halcyon. A therapy based Maze game developed in C#." class="Halcyon">
-                    <p>
-                        Final project for my undergraduate. An android based maze game which uses a Depth-first search for procedural maze generation.
-
-                        Link - https://github.com/MFLR3/Halcyon                   
-                    </p>
-                </div>
-            </div>
-            
-            <div class="work-project-3">
-                <h3>Mock Band Website</h3>
-                <div class="flex">
-                    <img src="images/MockBand.png" alt="Mock Band Website" class="SR">
+                    <img src="images/MockBand.png" alt="Mock Band Website" class="mock mb-1">
                     <p>
                         Mock band website
     
                         Front-end project  developed for a University module.
-    
-                        Link - https://github.com/MFLR3/ClaypoolSite               
+
+                        <a href="https://github.com/MFLR3/ClaypoolSite">https://github.com/MFLR3/ClaypoolSite</a>             
                     </p>
                 </div>
-            </div>
-            
-            <div class="work-project-4">
-                <h3>Other Projects</h3>
+            </div>            
+            <div class="work-project-4 text-center col-lg-6 mt-5 mt-lg-3">
+                <h3 class="mb-4">Other Projects</h3>
                 <div class="flex">
-                    <img src="images/MyGit.png" alt="GitHub Account" class="SR">
+                    <img src="images/MyGit.png" alt="GitHub Account" class="other-projects mb-4">
                     <p>
-                        My experience of programming, software development, 
-                        and web development commenced well before the initiation of my Computer Science Degree 
-                        and has continued to evolve since then. To gain deeper insights into my projects and capabilities, 
-                        I welcome you to review my GitHub portfolio or reach out to me via email with any inquiries you 
-                        may have.
-                       
-                       Link - https://github.com/MFLR3                  
+                        My programming, software development, and web development experience began well before I started my Computer 
+                        Science degree and has continued to grow since. For a comprehensive view of my projects and capabilities, 
+                        please explore my GitHub portfolio or contact me via <a href="https://www.linkedin.com/in/max-reinsch-7567498a/">LinkedIn</a>  with any inquiries.
+
+                        <a href="https://github.com/MFLR3">https://github.com/MFLR3</a>                
                     </p>
                 </div>
-            </div>
-            
-        </div>
-
-        <div class="contact">
-
-            <h2>Contact Me</h2>
-
-            <div class="email-form">
-                <form class="contact-form">
-                    <input type="text" id="fullName" placeholder="Full name">
-                    <input type="email" id="email" placeholder="Email">
-                    <!--<input type="test" id="subject" placeholder="Subject">-->
-                    <textarea id="message" | cols="30" rows="10"></textarea>
-                    <input type="submit" class="submit" value="Send Message">
-
-                </form>
-                <!-- BOOKMARK: Sort out the backend to this form. 20 mins on Video -->
-                <!--Hi Nick! -->
-                
             </div>            
         </div>
-    </div>      
+    </div>
+    <div id="skills">
+        <h2 class="skills-heading text-center mb-5">SKILLS</h2> 
+        <ul class="skill-list list-unstyled px-5">
+            <li class="mb-3"><span class="tab"><img src="images/web-development-svgrepo-com.svg" alt="GitHub Account" class="svg"></span> Web Development - I have been interested in Front-end development for several years and through my tenure at University I 
+                acquired experience with Back-end Development. Since graduating, I have been working on my understanding of Fullstack Development. 
+            </li>
+            <li class="mb-3"><span class="tab"><img src="images/games-svgrepo-com.svg" alt="GitHub Account" class="svg"></span> Games Development - During my CS degree, I have gained some experience with Game Design and Development. I have developed concepts for game projects 
+                and created them using the Unity Engine..
+            </li>
+            <li class="mb-3"><span class="tab"><img src="images/database-svgrepo-com.svg" alt="GitHub Account" class="svg"></span> Databases - I have a basic knowledge of MySQL and how to query a database using various statements. As a fan of open-source software, I am currently studying PostgreSQL. </li>
+            <li class="mb-3"><span class="tab"><img src="images/programming-code-application-development-computer-svgrepo-com.svg" alt="GitHub Account" class="svg"></span> Programming languages - To varying levels of competency, some of the 
+                languages I am familiar with are Python, JavaScript, TypeScript, C#, C++ and PHP.           
+            </li>
+            <li class="mb-3"><span class="tab"><img src="images/testing-web-design-svgrepo-com.svg" alt="GitHub Account" class="svg"></span> QA testing - I am also currently building QA tests for various projects. </li>
+            <li class="mb-3">For more, visit my Github <a href="https://github.com/MFLR3"><img src="images/github-mark-white.png" alt="GitHub Logo" class="github"></a></li>
+            <li class="mb-3">Alternatively, contact me on LinkedIn <a href="https://www.linkedin.com/in/max-reinsch-7567498a/"><img src="images/linked.png" alt="LinkedIn Logo" class="linked"></a></li>
+        </ul>
+    </div>
+</div>    
 <%- include("partials/footer.ejs") %> 
   
 
